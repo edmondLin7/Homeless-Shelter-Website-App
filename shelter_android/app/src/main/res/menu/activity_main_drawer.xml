@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/primary">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_title_home" />
+        <item
+            android:id="@+id/navigation_place"
+            android:icon="@drawable/ic_location"
+            android:title="@string/menu_title_place" />
+        <item
+            android:id="@+id/navigation_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/menu_title_notification" />
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/menu_title_profile" />
+
+        <item
+            android:id="@+id/navigation_logout"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="@string/sign_out" />
+    </group>
+
+</menu>
+

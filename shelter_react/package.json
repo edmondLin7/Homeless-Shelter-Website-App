@@ -1,0 +1,43 @@
+{
+  "name": "shelterfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha --test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.11.1",
+    "flatted": "^3.1.1",
+    "geoip-lite": "^1.4.2",
+    "google-map-react": "^2.1.9",
+    "jsonwebtoken": "^8.5.1",
+    "material-ui": "^0.20.2",
+    "mocha": "^8.4.0",
+    "mock-req-res": "^1.2.0",
+    "mysql2": "^2.2.5",
+    "node-mocks-http": "^1.10.1",
+    "proxyquire": "^2.1.3",
+    "react-geocode": "^0.2.3",
+    "react-google-autocomplete": "^1.2.6",
+    "react-google-maps": "^9.4.5",
+    "react-use-geolocation": "^0.1.1",
+    "sinon": "^10.0.0",
+    "styled-components": "^5.2.3",
+    "supertest": "^6.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

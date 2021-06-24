@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Shelter Finder</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_title_home">Home</string>
+    <string name="menu_title_place">Place</string>
+    <string name="menu_title_friends">Friends</string>
+    <string name="menu_title_notification">Notification</string>
+    <string name="menu_title_profile">Profile</string>
+
+
+    <string name="nav_header_title">Shelter Finder</string>
+    <string name="nav_header_desc">Find a shelter near you</string>
+    <string name="nav_header_subtitle">support@shelterfinder.com</string>
+
+
+    <string name="navigation_drawer_header_title">Mr. Vy</string>
+    <string name="navigation_drawer_header_description">Senior Software Engineer</string>
+    <string name="navigation_drawer_header_content_description">Image Avatar</string>
+
+
+    <string name="content_description">Image Description</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="find_a_shelter">Find a Shelter</string>
+    <string name="shelter">Shelter</string>
+    <string name="menu_shelter">Shelter</string>
+    <string name="contentDescription">contentDescription</string>
+    <string name="view_detail">View Detail</string>
+    <string name="start">Get Started</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_background">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="56dp"
+        android:padding="16dp"
+        android:elevation="16dp"
+        app:cardCornerRadius="16dp">
+
+        <Button
+            android:id="@+id/button_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingStart="35dp"
+            android:paddingEnd="35dp"
+            android:text="Continue as Vy"
+            android:textColor="#fff"
+
+            android:textSize="22sp" />
+
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/button_start2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:paddingStart="35dp"
+        android:paddingEnd="35dp"
+        android:text="Logout"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+
+        android:textSize="22sp" />
+</RelativeLayout>

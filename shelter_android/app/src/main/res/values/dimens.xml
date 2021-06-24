@@ -1,0 +1,33 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="barcode_reticle_corner_radius">8dp</dimen>
+    <dimen name="barcode_reticle_stroke_width">4dp</dimen>
+
+    <dimen name="bounding_box_corner_radius">12dp</dimen>
+    <dimen name="bounding_box_stroke_width">1dp</dimen>
+    <dimen name="bounding_box_confirmed_stroke_width">2dp</dimen>
+
+
+    <!-- nav_header.xml -->
+    <dimen name="navigation_drawer_header_height">192dp</dimen>
+    <dimen name="navigation_drawer_header_padding">16dp</dimen>
+    <dimen name="navigation_drawer_image_width">100dp</dimen>
+
+    <!-- CardView -->
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">6dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+
+
+    <dimen name="recycler_min_height">250dp</dimen>
+    <dimen name="poster_width">132dp</dimen>
+    <dimen name="poster_height">200dp</dimen>
+    <dimen name="backdrop_height">270dp</dimen>
+</resources>

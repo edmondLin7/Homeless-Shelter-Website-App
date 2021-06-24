@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.nukemars.shelterfinder.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_place"
+        android:name="com.nukemars.shelterfinder.ui.place.PlaceFragment"
+        android:label="@string/shelter"
+        tools:layout="@layout/fragment_place" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.nukemars.shelterfinder.ui.profile.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile"/>
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.nukemars.shelterfinder.ui.notification.MyNotificationFragment"
+        tools:layout="@layout/fragment_my_notification"
+        android:label="Notification" />
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.nukemars.shelterfinder.ui.shelter_detail.ShelterDetailFragment"
+        tools:layout="@layout/fragment_shelter_detail"
+        android:label="ShelterDetailFragment" />
+</navigation>
